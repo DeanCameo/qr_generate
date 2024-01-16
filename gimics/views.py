@@ -48,5 +48,3 @@ def qr_code_view(request):
         return render(request, 'gimics/generator_result.html', {'qr_image_base64': qr_image_base64, 'qr_color': qr_color, 'qr_logo': qr_logo})
     
     return render(request, 'gimics/generator.html')
-
-        return render(request, 'gimics/generator.html')
