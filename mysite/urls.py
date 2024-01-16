@@ -18,7 +18,7 @@ from django.urls import include, path
 from gimics.views import QRCodeView
 
 urlpatterns = [
-    path('home/', include('gimics.urls')),
+    path('', include('gimics.urls')),
     path('qr_code/', QRCodeView.as_view(), name='qrcode'),
     path('admin/', admin.site.urls),
 ]
