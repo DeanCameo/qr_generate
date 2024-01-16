@@ -125,6 +125,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://qrgenerate-production.up.railway.app/*/']
+CSRF_TRUSTED_ORIGINS = ['https://dean-qr.up.railway.app/*/']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
