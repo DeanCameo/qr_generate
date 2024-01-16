@@ -10,6 +10,7 @@ from PIL import Image
 def home(request):
     return render(request, 'gimics/home.html')
 
+@csrf_protect
 class QRCodeView(View):
     def get(self, request):
         return render(request, 'gimics/generator.html')
