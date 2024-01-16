@@ -7,6 +7,9 @@ import io
 import base64
 from PIL import Image
 
+from django.views.decorators.csrf import csrf_protect
+
+
 def home(request):
     return render(request, 'gimics/home.html')
 
